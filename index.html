@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>2 Col Portfolio - Start Bootstrap Template</title>
+    <title>Johan Eliasson</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -39,19 +39,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <a class="navbar-brand" href="index.html">About</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About</a>
+                        <a href="#projects">Projects</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -62,12 +59,28 @@
 
     <!-- Page Content -->
     <div class="container">
+	
+		<!-- About -->
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 class="page-header">
+					About me
+				</h1>
+				<h3>
+				Who am I?
+				</h3>
+				<p>
+				My name is Johan Eliasson. I am a student living in Norrk&ouml;ping and studies
+				my fifth year in </br> Master of Science in Media Technology and Engineering. </br>
+				</p>
+			</div>
+		</div>
 
         <!-- Page Header -->
-        <div class="row">
+        <div id="projects" class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Page Heading
-                    <small>Secondary Text</small>
+                <h1 class="page-header">
+					Projects
                 </h1>
             </div>
         </div>
@@ -77,21 +90,29 @@
         <div class="row">
             <div class="col-md-6 portfolio-item">
                 <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+					<iframe width="100%" height="350"
+					src="http://www.youtube.com/embed/wM2boo4J0vM">
+					</iframe> 
                 </a>
                 <h3>
-                    <a href="#">Project One</a>
+                    <a href="http://www.youtube.com/watch?v=wM2boo4J0vM">TDDD23 Design and programming of computer games - Awesome Card Game</a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <p>A tile based game combined with a card game. The game was made using Unity with C# scripts.
+				<strong>Co-creator: Anton Karlstr&ouml;m</strong>
+				</p>
             </div>
             <div class="col-md-6 portfolio-item">
                 <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+					<iframe width="100%" height="350"
+					src="http://www.youtube.com/embed/f3xyh-piHyI">
+					</iframe>
                 </a>
                 <h3>
-                    <a href="#">Project Two</a>
+                    <a href="http://www.youtube.com/watch?v=f3xyh-piHyI">TNCG13 SFX - Tricks of the trade - Procedural Fracturing</a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <p>Procedurally genrated cracks in 3d geometry. A maya-plugin implemented in javascript.
+				<strong>Co-creator: Kristina Engstr&ouml;m</strong>
+				</p>
             </div>
         </div>
         <!-- /.row -->
@@ -100,14 +121,14 @@
         <div class="row">
             <div class="col-md-6 portfolio-item">
                 <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                    <img class="img-responsive" src="http://placekitten.com/700/400" alt="">
                 </a>
                 <h3>
-                    <a href="#">Project Three</a>
+                    <a href="#projects">More projects coming soon...</a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <p></p>
             </div>
-            <div class="col-md-6 portfolio-item">
+            <!--<div class="col-md-6 portfolio-item">
                 <a href="#">
                     <img class="img-responsive" src="http://placehold.it/700x400" alt="">
                 </a>
@@ -115,72 +136,29 @@
                     <a href="#">Project Four</a>
                 </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
+            </div>-->
         </div>
         <!-- /.row -->
-
-        <!-- Projects Row -->
-        <div class="row">
-            <div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Five</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-            <div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Six</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+		
+		<!-- Page Header -->
+        <div id="contact" class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+					Contact
+                </h1>
             </div>
         </div>
         <!-- /.row -->
 
         <hr>
-
-        <!-- Pagination -->
-        <div class="row text-center">
-            <div class="col-lg-12">
-                <ul class="pagination">
-                    <li>
-                        <a href="#">&laquo;</a>
-                    </li>
-                    <li class="active">
-                        <a href="#">1</a>
-                    </li>
-                    <li>
-                        <a href="#">2</a>
-                    </li>
-                    <li>
-                        <a href="#">3</a>
-                    </li>
-                    <li>
-                        <a href="#">4</a>
-                    </li>
-                    <li>
-                        <a href="#">5</a>
-                    </li>
-                    <li>
-                        <a href="#">&raquo;</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
         <!-- /.row -->
-
         <hr>
 
         <!-- Footer -->
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Copyright &copy; Johan Eliasson 2016</p>
                 </div>
             </div>
             <!-- /.row -->
