@@ -1,0 +1,48 @@
+#body-bg{
+	background-image: url(../pictures/noisy.png);
+}
+.head1{
+	color: white;
+	text-align: center;
+}
+
+.head3{
+	color:white;
+	text-align: center;
+}
+
+.para{
+	color: white;
+	text-align:center;
+	font-size:16px;
+}
+
+.para1{
+	color: white;
+	text-align: left;
+	font-size:16px;
+}
+.para2{
+	color: white;
+	text-align: center;
+}
+
+#wrap{
+	padding: 10px 10px 10px 10px;
+	background-color: #222222;
+	border-radius: 25px;
+	border: 2px solid #333;
+}
+#text{
+	width:60%;
+	float:left;
+}
+#picture{
+	width:40%;
+	float:right;
+}
+#me{
+	margin-left:20%;
+	border: 2px solid #ddd;
+	border-radius: 15px;
+}
